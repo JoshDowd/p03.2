@@ -31,3 +31,32 @@ def run_tests():
 # Edit this code
 def clue(word):
 
+    new_word = ""
+    count = 0
+    
+    for char in word:
+
+         if char == "a":
+             count = count + 1
+
+         elif char == "e":
+             count = count + 1
+
+         elif char == "i":
+             count = count + 1
+
+         elif char == "o":
+             count = count + 1
+
+         elif char == "u":
+             count = count + 1
+
+         else:
+             new_word = new_word + char
+
+    print(new_word)
+   
+    
+    
+
+    

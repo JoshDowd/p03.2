@@ -28,3 +28,27 @@ def run_tests():
 # Edit this code
 def vowels(word):
 
+    count = 0
+
+    for char in word:
+
+         if char == "a":
+             count = count + 1
+
+         if char == "e":
+             count = count + 1
+
+         if char == "i":
+             count = count + 1
+
+         if char == "o":
+             count = count + 1
+
+         if char == "u":
+             count = count + 1
+
+
+
+    print(count) 
+    
+
